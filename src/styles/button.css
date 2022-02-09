@@ -1,0 +1,49 @@
+.hr {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-top: var(--gray-blue);
+}
+
+.card__footer {
+  padding: 1.5rem;
+}
+
+.check {
+  color: var(--gray-blue);
+}
+
+.card__footer--button {
+  padding: 1.5rem;
+}
+
+.button {
+  background-color: var(--dark-blue);
+  border: none;
+  color: var(--pale-blue);
+  padding: 15px 65px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card__footer--text {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 20px;
+  }
+  .card__footer--button {
+    padding-top: 3rem;
+  }
+  .button {
+    font-size: 18px;
+    padding: 20px 80px;
+  }
+}

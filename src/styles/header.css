@@ -1,0 +1,51 @@
+.wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 6rem;
+  }
+  .wrapper__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    background-size: 12rem;
+    background-image: url("https://digitshack.com/codepen/mentor5/pattern-circles.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .wrapper__top--title {
+    color: var(--dark-blue);
+    font-size: 2rem;
+  }
+  
+  .wrapper__top--subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 17px;
+    color: var(--gray-blue);
+  }
+  
+  .wrapper__top--sub {
+    white-space: nowrap;
+  }
+
+
+@media only screen and (min-width: 1000px) {
+
+
+    .wrapper__top--subtitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: lighter;
+        font-size: 17px;
+        color: var(--gray-blue);
+      }
+    
+      .wrapper__top--sub {
+        font-size: 0;
+      }
+}
